@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: 0;
+}
+body {
+  cursor: pointer;
+}
+@font-face {
+  font-family: poppins;
+  src: url(Poppins-SemiBold.ttf);
+}
+main {
+  background-image: url(thumbnail_fondo.jpg);
+  height: 50rem;
+  border-radius: 0% 0% 5% 10%;
+}
+.enlaces {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  justify-content: center;
+}
+.navegador {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 7em;
+  padding: 1rem 10rem;
+  text-decoration: none;
+}
+a {
+  font-family: poppins;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 25px;
+  padding: 3rem;
+}
+#centro {
+  display: flex;
+  justify-content: left;
+  align-items: right;
+  padding: 5rem;
+}
+h2 {
+  color: rgb(204, 0, 0);
+  font-family: poppins;
+  font-size: 300;
+}
+#datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+#boton {
+  padding: 1rem 8rem;
+  font-family: poppins;
+  font-size: 25px;
+  color: white;
+  background-color: rgb(247, 190, 105);
+  border-radius: 25px;
+  border: none;
+  box-shadow: 5px 5px 5px #868484;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+p {
+  margin-top: 2rem;
+  color: rgb(204, 0, 0);
+  font-size: 20px;
+}
+@media screen and (max-width: 1336px) {
+  main {
+    background-image: url(thumbnail_fondo.jpg);
+    background-size: 100vh;
+    border-radius: 0% 0% 5% 10%;
+  }
+  .enlaces {
+    gap: 2rem;
+    justify-content: left;
+  }
+  .navegador {
+    flex-direction: column;
+    gap: 1em;
+    padding: 1rem 1rem;
+    text-decoration: none;
+  }
+  a {
+    font-weight: 100;
+    font-size: 20px;
+    padding: 1.5rem;
+  }
+  #centro {
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+  }
+  #datos {
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 1rem 0rem 0rem;
+  }
+  .foto_pizza {
+    width: 250px;
+    height: 250px;
+  }
+  #boton {
+    padding: 1rem 3rem;
+    font-size: 20px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    margin-top: 0 auto;
+    font-size: 20px;
+  }
+}
